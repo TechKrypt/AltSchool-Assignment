@@ -1,0 +1,121 @@
+/* index.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header ul li {
+    margin: 0 1rem;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.profile-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.profile-container section {
+    margin-bottom: 1.5rem;
+}
+
+.profile-container h2 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.profile-container p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.profile-picture {
+    margin-top: 1rem;
+}
+
+.profile-picture img {
+    width: 500px;
+    height: 500px;
+}
+
+/* Wikipedia-style for AltSchool ID section */
+
+#altSchoolID {
+    padding: 1rem;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#altSchoolID h2 {
+    font-size: 2.25rem;
+    margin-top: 0;
+}
+
+#altSchoolID p {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+button#scrollTop {
+    display: none;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+button#scrollTop:hover {
+    background-color: #333;
+}

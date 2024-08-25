@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AltSchool Student Profile</title>
+    <link rel="stylesheet" href="/CSS/index.css">
+</head>
+<body>
+    <header>
+        <h1>AltSchool</h1>
+        <ul>
+            <li><a href="form.html">Signup</a></li>
+            <li><a href="index.html">Altschool Profile</a></li>
+        </ul>
+    </header>
+
+    <main class="profile-container">
+        <section id="altSchoolID">
+            <h2>AltSchool ID</h2>
+            <p>ID: ALT/SOE/024/0447</p>
+        <div class="profile-picture">
+            <img src="/Assets/Profile Picture.png  " alt="Your Picture">
+        </div>
+        </section>
+
+        <section id="biography">
+            <h2>Biography</h2>
+            <p>
+                My name is Victor C. Menyuah, and I’m a seasoned web designer with a background in engineering, currently making a 
+                transition into cloud engineering at AltSchool. With years of experience designing dynamic, user-centric websites, 
+                I’ve developed a deep understanding of creating intuitive digital experiences.
+            </p>
+            <p>
+                My journey began in web design, where I refined my skills in crafting seamless and engaging solutions. My engineering 
+                background has given me a unique perspective, combining analytical abilities with creative problem-solving. I’m driven 
+                by a desire to build scalable, robust solutions using cloud technologies. My web design experience has taught me the 
+                importance of understanding user needs and design principles, which are essential in the cloud engineering field.
+            </p>
+            <p>
+                I’m also passionate about education and community empowerment. Over the years, I’ve taught basic computer skills to 
+                underprivileged communities, believing in the transformative power of technology to create new opportunities for 
+                personal and professional growth. As I move forward into cloud engineering, I’m excited to apply my skills to drive 
+                innovation and make a meaningful impact.
+            </p>
+        </section>
+
+        <section id="reasons">
+            <h2>Reasons for Joining AltSchool</h2>
+            <p>
+                AltSchool provides a comprehensive program that perfectly aligns with my goal of advancing in cloud engineering. 
+                The structured curriculum and hands-on approach will equip me with the practical knowledge and experience necessary 
+                for success in this field. The program offers a focused learning environment that will facilitate my transition from 
+                web design to cloud engineering. Additionally, the opportunity to connect with a supportive community of industry 
+                professionals and peers will enrich my learning experience and enhance my career prospects. Joining AltSchool 
+                represents a crucial step toward achieving my career aspirations and making a significant impact in cloud engineering.
+            </p>
+        </section>
+
+        <section id="goals">
+            <h2>Goals</h2>
+            <p>
+                My primary goal is to enhance my skills in cloud engineering, building on my background in web design and engineering 
+                to develop scalable, robust solutions. I aim to deepen my understanding of cloud technologies and apply this knowledge 
+                to create innovative and impactful digital solutions. Transitioning from web design to cloud engineering is a key focus 
+                for me, and I’m eager to apply my technical skills and problem-solving abilities to this new domain. Ultimately, 
+                I aspire to drive technological advancement and contribute meaningfully to the field of cloud engineering.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AltSchool. All Rights Reserved.</p>
+    </footer>
+
+    <button id="scrollTop" onclick="scrollToTop()">Scroll to Top</button>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            var scrollTopButton = document.getElementById('scrollTop');
+            if (window.pageYOffset > 300) {
+                scrollTopButton.style.display = 'block';
+            } else {
+                scrollTopButton.style.display = 'none';
+            }
+        });
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
