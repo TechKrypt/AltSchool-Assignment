@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Elements Assignment</title>
+    <link rel="stylesheet" href="/CSS/media.css">
+</head>
+<body>
+
+    <div class="container">
+        <section class="picture-section">
+            <picture>
+                <source media="(min-width: 1200px)" srcset="/Assignment 2/Assets/Profile Picture.jpg">
+                <source media="(min-width: 768px)" srcset="/Assignment 2/Assets/Profile Picture.jpg">
+                <source media="(max-width: 767px)" srcset="/Assignment 2/Assets/Profile Picture.jpg">
+                <img src="/Assets/Profile Picture.jpg" alt="A picture of me during a tech conference">
+            </picture>
+        </section>
+
+        <div class="content">
+            <h1>My Message To Everyone At AltSchool</h1>
+
+            <section class="video-section">
+                <video controls>
+                    <source src="/Assets/AltSchool Video.mp4" type="video/mp4">
+                    <source src="videos/my-story.webm" type="video/webm">
+                </video>
+            </section>
+
+            <section class="audio-section">
+                <h3>Listen to My Message</h3>
+                <audio controls>
+                    <source src="/Assets/AltSchool Video.mp3" type="audio/mpeg">
+                    <source src="audio/my-podcast.ogg" type="audio/ogg">
+                </audio>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <p><a href="table.html">Go to the Courses and Schools Table</a></p>
+    </footer>
+
+</body>
+</html>
